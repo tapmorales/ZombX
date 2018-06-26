@@ -33,23 +33,27 @@
             width: 70%;
             height: 300px;
             margin: 2em 0 0 0;
-            padding: 0em 1em;
+            padding: 1em 1em;
             transition: box-shadow .2s ease-in-out;
+            
         }
         .itens-wwd:hover{
             box-shadow: 0 0 10px rgba(0,0,0,.3);
         }
 
             .itens-link{
-                font-size: 1.5em;
-                font-family: 'Playfair';
-                text-decoration: none;
-                color: #6B7070;
+                font-family: 'Playfair Display';
+                font-weight: 500;
+                padding: 25px;
+                font-size: 1.3em;
+                color: #444447;
                 text-align: center;
+                text-decoration: none;
             }
             .itens-text{
                 text-align: center;
-                font-size: 1em;
+                font-size: .9em;
+                line-height: 1.8em;
                 color: #6B7070;
                 font-family: 'Poppins';
             }

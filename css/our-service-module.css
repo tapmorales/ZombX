@@ -1,0 +1,86 @@
+.our-services {
+    padding: 3em 4em 7em 4em;
+}
+    .our-services-title {
+        font-family: 'Playfair';
+        font-size: 2.4em;
+        color: var(--color-secondery);
+        text-align: center;
+        margin: .5em 0;
+    }
+    
+    .our-services-text {
+        line-height: 2em;
+        text-align: center;
+        color: var(--color-theme);
+        font-family: 'Poppins';
+        font-size: 1.1em; 
+    }
+        .our-services-box{
+            margin: 5em 0 0 0;
+        }
+
+        .our-services-box div{
+            width: 70%;
+            margin: 2em auto;
+            padding: 2em .3em;
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+            transition: .2s 0s ease-in-out;
+        }
+
+        .our-services-box div:hover {
+            box-shadow: 0 0 15px #d6d6d6;
+        }
+
+            .our-services-icon{
+                width: 25%;
+                fill: #45456e;
+            }
+            .our-services-box-title {
+                font-family: 'Playfair Display';
+                font-weight: 500;
+                padding: 25px;
+                font-size: 1.3em;
+                color: #444447;
+                text-align: center;
+            }
+
+            .our-services-box-text {
+                line-height: 1.8em;
+                text-align: center;
+                color: #535257;
+                font-family: 'Poppins';
+                font-size: .9em; 
+            }
+
+            .our-services-box-link {
+                margin: 20px 0 0 0;
+                line-height: 1em;
+                text-align: center;
+                color: #45456e;
+                font-family: 'Poppins';
+                font-size: 1em; 
+                text-decoration: none;
+            }
+
+@media (min-width: 700px) {
+
+    .our-services-box{
+        width: 100%;    
+        margin: 5em 0 0 0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: ;
+        grid-gap: 50px; 
+    }
+
+
+        .our-services-box div{
+            width: 81%;
+        }
+
+
+
+}
