@@ -1,0 +1,68 @@
+.social{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+    .footer-logo{
+        font-family: 'Poppins';
+        font-weight: 600;
+        color: #FFF;
+        text-decoration: none;
+        font-size: 1.9em;
+        padding: 0 0 1em 0;
+    }
+    .footer-text{
+        color: #aaa;
+        font-family: 'Poppins';
+        line-height: 1.5em;
+        margin: 0 0 1em 0;
+    }
+    .social-icons{
+        display: flex;
+        align-items: center;
+    }
+        .google-plus,
+        .twitter,
+        .linkedIn,
+        .facebook{
+            width: 5%;
+        }
+            .google-plus a,
+            .twitter a,
+            .linkedIn a,
+            .facebook a{
+                fill: #aaa;
+                transition: fill .27s ease-in-out;
+            }
+
+            .facebook a:hover{
+                fill: #204eb1;
+            }
+            .google-plus a:hover{
+                fill: #DC4538;
+            }
+            .linkedIn a:hover{
+                fill: #0077B5;
+            }
+            .twitter a:hover{
+                fill: #08A0E9;   
+            }
+
+@media only screen and (min-width: 900px) {
+    .social{
+        width: 21%;
+    }
+        .social-icons{
+            display: flex;
+            align-items: center;
+        }
+            .google-plus,
+            .twitter,
+            .linkedIn,
+            .facebook{
+                margin: 10px 20px 0 0;
+                width: 12%;
+            }
+            
+}

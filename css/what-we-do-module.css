@@ -1,0 +1,76 @@
+.what-we-do{
+    padding: 5em
+}
+
+    .title-what-we-do{
+        text-align: center;
+        color: #444447;
+        font-family: 'Playfair';
+        font-size: 2.4em;
+    }
+    .parag-wwd{
+        line-height: 2em;
+        margin: 30px 0 0 0;
+        text-align: center;
+        color: #535257;
+        font-family: 'Poppins';
+        font-size: 1.1em; 
+    }
+    .icons-what-we-do{
+        margin: 60px 0 0 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+        .itens-wwd{
+            box-shadow: 0 0 5px rgba(0,0,0,.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            width: 70%;
+            height: 300px;
+            margin: 2em 0 0 0;
+            padding: 0em 1em;
+            transition: box-shadow .2s ease-in-out;
+        }
+        .itens-wwd:hover{
+            box-shadow: 0 0 10px rgba(0,0,0,.3);
+        }
+
+            .itens-link{
+                font-size: 1.5em;
+                font-family: 'Playfair';
+                text-decoration: none;
+                color: #6B7070;
+                text-align: center;
+            }
+            .itens-text{
+                text-align: center;
+                font-size: 1em;
+                color: #6B7070;
+                font-family: 'Poppins';
+            }
+            .itens-icon{
+                fill: var(--color-theme);
+                width: 30%;
+            }
+
+
+
+
+@media (min-width: 860px) {
+    .what-we-do{
+        padding: 9em
+    }
+
+        .icons-what-we-do{
+            flex-direction: row;
+        }
+            .itens-wwd{
+                width: 27%;
+                height: 300px;
+            }
+}

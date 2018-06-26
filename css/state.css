@@ -1,0 +1,17 @@
+.is-open{
+    opacity: 1;
+    width: 100%;
+    transition: .5s ease-in-out;
+    z-index: 3;
+}
+.rotate{
+    transform: rotate(90deg);
+    transition: transform .5s ease-in-out;
+}
+
+.show_input{
+    width: 20%;
+    opacity: 1;
+    transition: width opacity .4s ease-in-out;
+}
+

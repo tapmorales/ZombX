@@ -1,0 +1,32 @@
+.news{
+    width: 100%;
+}
+    .useful-links-title{
+        font-family: 'Playfair';
+        font-size: 1.5em;
+        font-weight: 200;
+        color: #fff;
+    }
+    .someClass li{
+        margin: 1.1em 0 0 0;
+    }
+
+        .useful-links{
+            color: #FFF;
+            font-family: 'Lato';
+            text-decoration: none;
+            font-weight: 300;
+            padding: 0;
+            transition: padding .2s ease;
+        }
+        .useful-links:hover{
+            padding: 0 .4em;
+            font-weight: 700;
+        }
+
+@media only screen and (min-width: 900px) {
+    .news{
+        width: 21%;
+    }
+
+}
