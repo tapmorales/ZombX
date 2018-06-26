@@ -3,8 +3,8 @@
     position: fixed;
     bottom: 15px;
     right: 30px;
-    width: 45px;
-    height: 45px;
+    width: 32px;
+    height: 32px;
     background-color: var(--color-theme);
     border-radius: 10%;
     z-index: 2;
@@ -12,6 +12,7 @@
     animation-name: pulse;
     animation-duration: 2s;
     animation-iteration-count: infinite;
+    border: 2px solid var(--color-text);    
 }   
 
 @keyframes pulse {
