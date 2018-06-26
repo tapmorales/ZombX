@@ -173,15 +173,12 @@
 
                                 .links_nav a::before{
                                     content: '';
-                                    background-color: #FF003B;;
+                                    background-color: var(--color-text);;
                                     height: 1px;
                                     width: 0%;
                                     position: absolute;
                                     bottom: -5px;
                                     transition: width .25s ease-in-out;
-                                }
-                                .links_nav a:hover{
-                                    color: #FF003B;
                                 }
                                 .links_nav a:hover::before{
                                     width: 100%;
