@@ -43,6 +43,7 @@
     align-items: center;
     justify-content: space-between;
     position: fixed;
+    border-bottom: 3px solid var(--color-text)
 }
 
     .menu__title{
@@ -118,7 +119,7 @@
         top: 0;
         z-index: 1;
         justify-content: space-between;
-        border-bottom: 10px solid var(--color-secondery);
+        border-bottom: 9.5px solid var(--color-secondery);
     }
     
         .menu__title{     
