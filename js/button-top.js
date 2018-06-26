@@ -5,7 +5,7 @@
     $button.style.display = 'none';
 
     window.addEventListener('scroll', () => {
-        if(pageYOffset > 666){
+        if(pageYOffset > 600){
             $button.style.display = 'inline';
         }
         else{
