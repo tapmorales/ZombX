@@ -1,14 +1,13 @@
 .statistics {
     position: relative;
-    background-image: url("../img/photo4.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
     background-position: center;
     width: 100%;
-    height: 18em;
-    margin: 0 0 10px 0;
+    height: 27em;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
+    z-index: -1;
 }
 
 .statistics::before {
@@ -19,11 +18,12 @@
     background-color: #45456e;
     opacity: .7;
     width: 100%;
-    height: 18em;
+    height: 27em;
+    z-index: -2;
 } 
 
     .statistics-box { 
-        margin: 6em 0 0 0;
+        margin: .5em 0 0 .5em;
         position: relative;
         display: flex;
         flex-direction: column;
@@ -32,17 +32,16 @@
 
     .statistics-number {
         color: #FFF;
-        font-size: 30px;
-        text-transform: capitalize;
-        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
         margin-top: 9px;
-        line-height: 1.5;
     }
 
     .statistics-title {
 
         color: #FFF;
-        font-size: 25px;
+        font-size: 20px;
         text-transform: capitalize;
         font-family: 'Playfair', sans-serif;
         margin: .3em 0 0 0;
@@ -50,9 +49,61 @@
 
     .statistics-box-icon {
         fill: #FFF;
-        width: 35px;
-        height: 35px;
+        width: 20px;
+        height: 20px;
         position: absolute;
-        top: 10px;
-        left: -50px;
+        top: -1em;
     }
+
+@media (min-width: 860px) {
+    .statistics {
+        background-image: url("../img/photo4.jpg");
+        position: relative;
+        background-size: 100%;
+        flex-direction: row;
+        margin: 0 0 10px 0;
+        height: 18em;
+        z-index: -1;
+    }
+
+    .statistics::before {
+        height: 18em;
+        z-index: -2;
+    } 
+
+        .statistics-box { 
+            margin: 6em 0 0 0;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+        }
+
+
+        .statistics-number {
+            color: #FFF;
+            font-size: 30px;
+            text-transform: capitalize;
+            font-family: 'Lato', sans-serif;
+            font-weight: 700;
+            margin-top: 9px;
+            line-height: 1.5;
+        }
+
+        .statistics-title {
+
+            color: #FFF;
+            font-size: 25px;
+            text-transform: capitalize;
+            font-family: 'Playfair', sans-serif;
+            margin: .3em 0 0 0;
+        }
+
+        .statistics-box-icon {
+            fill: #FFF;
+            width: 35px;
+            height: 35px;
+            position: absolute;
+            top: 10px;
+            left: -50px;
+        }
+}
