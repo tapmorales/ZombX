@@ -25,7 +25,6 @@
 
     }
         .itens-wwd{
-            box-shadow: 0 0 5px rgba(0,0,0,.1);
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -38,7 +37,7 @@
             
         }
         .itens-wwd:hover{
-            box-shadow: 0 0 10px rgba(0,0,0,.3);
+            box-shadow: var(--shadow-boxes);
         }
 
             .itens-link{
