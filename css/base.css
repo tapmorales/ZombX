@@ -2,10 +2,14 @@
 /* v1.0 | 20080212 */
 
 :root {
+
 	--color-theme: #212135;
 	--color-secondery: #141420;
 	--color-text: #FF003B;
+	--color-title: #444447;
+	--color-text-secondery: #535257;
 	--shadow-boxes: 0 0 15px #d6d6d6;
+	--color-icons: #45456e;
 }
 
 

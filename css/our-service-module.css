@@ -4,7 +4,7 @@
     .our-services-title {
         font-family: 'Playfair';
         font-size: 2.4em;
-        color: var(--color-secondery);
+        color: var(--color-title);
         text-align: center;
         margin: .5em 0;
     }
@@ -12,7 +12,7 @@
     .our-services-text {
         line-height: 2em;
         text-align: center;
-        color: var(--color-theme);
+        color: var(--color-text-secondery);
         font-family: 'Poppins';
         font-size: 1.1em; 
     }
@@ -36,7 +36,7 @@
 
             .our-services-icon{
                 width: 25%;
-                fill: #45456e;
+                fill: var(--color-icons);
             }
             .our-services-box-title {
                 font-family: 'Playfair Display';
